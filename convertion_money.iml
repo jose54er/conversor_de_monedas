@@ -9,10 +9,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Proyect Structure/gson-2.13.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../Proyect Structure/gson-2.13.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/gson-2.13.2 (1).jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

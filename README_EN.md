@@ -1,61 +1,57 @@
-# 💱 Currency Converter - Java API Client
+Programa Conversor de Monedas 
+🎯 Descripción del Proyecto
+CoinConverter es una herramienta simple de consola diseñada para proporcionar a los usuarios tipos de cambio actualizados y realizar conversiones entre una amplia gama de monedas internacionales.
 
-This project was developed as part of the **Oracle Next Education (ONE) - LATAM**, where we covered key concepts such as:
+🚀 Instalación y Uso (Simulado)
+Este programa es una simulación basada en interacciones de texto. 
 
-- Object-oriented programming in Java
+El flujo de uso es simple y guiado por el menú principal.
 
-- Consuming external APIs using the GSON library
+git clone https://github.com/jose54er/conversor_de_monedas
 
-- Exception handling
+cd conversor_de_monedas
 
-- Project structure and configuration file management
+1. Iniciar el Programa
+   Al iniciar, se muestra el menú principal:
 
-**Objective:** Apply these concepts in a real-world use case by consuming an exchange rate API to perform real-time currency conversion from a Java application.
+Bienvenido/a al programa de conversor de
+Porfavor elige una de las opciones
+1) Ver el tablero de monedas disponibles
+2) Convertir tu moneda
+3) Historial de conversiones
+4) Salir
+5) Elegí una opción:
 
-The program presents the conversion from one currency to another, the history of all converted currencies, and a data entry guide for all possible currency combinations.
+2. Flujo de Interacción Clave
+   Opción,Descripción
+   1,Ver el tablero de monedas disponibles: Muestra todos los códigos de moneda válidos.
+   2,"Convertir tu moneda: Inicia el proceso de conversión, solicitando moneda de origen, destino y monto."
+   3,Historial de conversiones: Muestra un registro de las conversiones realizadas previamente.
+   4,Salir: Finaliza la ejecución del programa.
 
----
-## How to get your API Key
-1. Go to [ExchangerateAPI](https://www.exchangerate-api.com/)
-2. Click on **Get Free API Key**
-3. Sign up with your 
-4. Once logged in, you’ll receive your API key in the dashboard
----
-## 📦 Installation and Setup
+Ejemplo de Conversión (Opción 2):
+El programa solicita tres entradas:
 
-### 1. Clone the repository
-   ```bash
-   git clone https://github.com/aquilescb/conversor_de_monedas
-   cd conversor_de_monedas
-   ```
-### 2. Set up your API Key
-   Create a file called `config.properties` inside the `src` folder.
-   Inside that file, add `API_KEY` and then your generated key:
+Código de la Moneda de Origen (ej. USD)
 
-```bash
-API_KEY=YOUR_API_KEY_HERE
-```
+Código de la Moneda de Destino (ej. COP)
+
+Cantidad a Convertir (ej. 100)
+
+🛠️ Monedas Soportadas
+El programa soporta la conversión de una gran variedad de monedas globales. A continuación, se muestra una pequeña muestra:
+
+Código	Moneda	Código	Moneda
+USD	Dólar estadounidense	EUR	Euro
+GBP	Libra esterlina	JPY	Yen japonés
+MXN	Peso mexicano	COP	Peso colombiano
+BRL	Real brasileño	CNY	Yuan chino
 
 
-### 3. Install the GSON library
-1. Download the .jar file for GSON from this link: [GSON](https://mvnrepository.com/artifact/com.google.code.gson/gson) 
-   (Recommended: download the latest version)
+🤝 Contribuciones
+Si deseas contribuir o reportar un problema, por favor, visita el repositorio oficial:
 
-2. In IntelliJ IDEA:
+https://github.com/jose54er/conversor_de_monedas
 
-   - Go to *File > Project Structure > Modules > Dependencies*
-   - Click the "+" button and choose "JARs or directories"
-   - Select the downloaded .jar file
-   - Apply the changes
 
-## ▶️ Running the program
-From IntelliJ IDEA:
 
-Make sure the `config.properties` file is accessible in the classpath
-
-Run the `ConversorApp` class
-
-## 🎥 Video Tutorial
-Prefer a step-by-step walkthrough? Check out this tutorial video explaining how to use the project from scratch:
-
-📹 Watch on YouTube [VIDEO](https://www.youtube.com/watch?v=cebbVvV_q2Q)
